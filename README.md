@@ -7,7 +7,7 @@ Booth algorithm gives a procedure for multiplying binary integers in signed 2’
 2.The multiplicand is added to the partial product upon encountering the first 0 (provided that there was a previous ‘1’) in a string of 0’s in the multiplier.
 3.The partial product does not change when the multiplier bit is identical to the previous multiplier bit.
 
-#Advantages:
+# Advantages:
 1.Faster than traditional multiplication: Booth’s algorithm is faster than traditional multiplication methods, requiring fewer steps to produce the same result.
 
 2.Efficient for signed numbers: The algorithm is designed specifically for multiplying signed binary numbers, making it a more efficient method for multiplication of signed numbers than traditional methods.
@@ -15,7 +15,7 @@ Booth algorithm gives a procedure for multiplying binary integers in signed 2’
 3.Lower hardware requirement: The algorithm requires fewer hardware resources than traditional multiplication methods, making it more suitable for applications with limited hardware resources.
 
 4.Widely used in hardware: Booth’s algorithm is widely used in hardware implementations of multiplication operations, including digital signal processors, microprocessors, and FPGAs.
-#Disadvantages:
+# Disadvantages:
 1.Complex to understand: The algorithm is more complex to understand and implement than traditional multiplication methods.
 
 2.Limited applicability: The algorithm is only applicable for multiplication of signed binary numbers, and cannot be used for multiplication of unsigned numbers or numbers in other formats without additional modifications.
