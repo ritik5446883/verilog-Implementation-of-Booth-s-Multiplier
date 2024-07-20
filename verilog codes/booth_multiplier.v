@@ -3,7 +3,7 @@
 // ROLL NO.   : 122EE0355
 // YEAR       : THIRD YEAR
 // DEPARTMENT : ELECTRICAL ENGINEERING
-// PROJECT    : BOOTH' MULTIPLIER
+// PROJECT    : BOOTH's MULTIPLIER
 ////////////////////////////////////////////////////////////////////////////////////
 `timescale 1ns / 1ps
 module fa (input a, input b, input cin, output sum, output cout);
