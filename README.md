@@ -1,5 +1,5 @@
 # Verilog-Implementation-of-Booth's-Multiplier
-This is my project on booth's multiplier using verilog
+This is my project on booth's multiplier implementaion using verilog.
 # Booth’s Algorithm
 Booth algorithm gives a procedure for multiplying binary integers in signed 2’s complement representation in efficient way, i.e., less number of additions/subtractions required. It operates on the fact that strings of 0’s in the multiplier require no addition but just shifting and a string of 1’s in the multiplier from bit weight 2^k to weight 2^m can be treated as 2^(k+1 ) to 2^m. As in all multiplication schemes, booth algorithm requires examination of the multiplier bits and shifting of the partial product. Prior to the shifting, the multiplicand may be added to the partial product, subtracted from the partial product, or left unchanged according to following rules:
 
